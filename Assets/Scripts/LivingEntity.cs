@@ -19,7 +19,7 @@ public class LivingEntity : MonoBehaviour
     }
 
     // 데미지를 입는 기능
-    public virtual void OnDamage(float damage, Vector2 hitPoint, Vector2 hitNormal)
+    public virtual void OnDamage(float damage)
     {
         // 데미지만큼 체력 감소
         health -= damage;
@@ -28,6 +28,7 @@ public class LivingEntity : MonoBehaviour
         if (health <= 0 && !dead)
         {
             Die();
+            Debug.Log("죽었습니다!");
         }
     }
 
