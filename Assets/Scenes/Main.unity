@@ -383,10 +383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d191ed32c01a34fa8860f6d1bc6083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRigidbody: {fileID: 199991868}
-  speed: 5
-  h: 0
-  v: 0
 --- !u!70 &199991870
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -416,7 +412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 100
-  playerRigidbody: {fileID: 199991868}
   speed: 5
 --- !u!1 &275413251
 GameObject:
