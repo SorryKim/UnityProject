@@ -58,4 +58,5 @@ public class Player : LivingEntity
             OnDamage(10);
         }
     }
+
 }
