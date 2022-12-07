@@ -17,12 +17,12 @@ public class MapMover : MonoBehaviour
 
             if (posX > posY)
             {
-                transform.Translate(Vector2.right * 40 * dirX);
+                transform.Translate(Vector2.right * 80 * dirX);
             }
 
             else if (posX < posY) 
             {
-                transform.Translate(Vector2.up * 40 * dirY);
+                transform.Translate(Vector2.up * 80 * dirY);
             }
         }
     }

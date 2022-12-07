@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - Map
   - Area
+  - Weapon
+  - PlayerDamaged
+  - EnemyDamaged
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
-  - 
+  - PlayerDamaged
+  - EnemyDamaged
   - 
   - 
   - 
